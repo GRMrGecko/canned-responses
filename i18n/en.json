@@ -1,0 +1,7 @@
+{
+    "can_command_params_example": "help|list|key",
+    "can_command_description": "Provide a canned response.",
+    "can_command_preview": "Select a response.",
+    "canned_responses_api_url": "API URL",
+    "canned_responses_api_url_description": "The URL to your canned responses API (https://example.com/canned-responses/api/)"
+}

@@ -1,0 +1,15 @@
+{
+    "id": "532c7c08-5bc6-44b4-90b7-0423c24320bd",
+    "version": "0.0.1",
+    "requiredApiVersion": "^1.4.0",
+    "iconFile": "icon.png",
+    "author": {
+        "name": "James Coleman",
+        "homepage": "https://mrgeckosmedia.com",
+        "support": "https://mrgeckosmedia.com"
+    },
+    "name": "Canned Responses",
+    "nameSlug": "canned-responses",
+    "classFile": "CannedResponsesApp.ts",
+    "description": "Provides Canned Responses in Rocket Chat."
+}
