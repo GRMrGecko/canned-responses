@@ -14,7 +14,13 @@ Next, you will need to add the Canned Responses app to your Rocket.Chat instance
 
 1. Under Rocket.Chat administration, go to General -> Apps and enable development mode to allow apps to be installed which are not in the market place.
 2. Follow instructions at https://rocket.chat/docs/developer-guides/developing-apps/getting-started/ to install the apps-cli.
-3. Change directory to the Canned Responses directory and run the following.
+3. Change directory to the Canned Responses directory and install needed modules.
+
+```bash
+npm install
+```
+
+4. Deploy the app to your Rocket.Chat instance.
 
 ```bash
 rc-apps deploy --url=https://rocket.domain.com -u USER_ACCOUNT -p "PASSWORD"
@@ -26,4 +32,4 @@ If you are modifying the code, you can run the following to update the App after
 rc-apps deploy --url=https://rocket.domain.com -u USER_ACCOUNT -p "PASSWORD" --update
 ```
 
-4. In the Rocket.Chat administration, go the Apps -> Canned Responses and enable/set the API URL to your helper's URL with `/api/` added to the end.
+5. In the Rocket.Chat administration, go the Apps -> Canned Responses and enable/set the API URL to your helper's URL with `/api/` added to the end.
